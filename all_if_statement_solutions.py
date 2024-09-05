@@ -30,7 +30,7 @@ else:
 
 # Leap Year Checker: Write a program that checks if a given year is a leap year using an if statement (hint: A leap year is divisible by 4, but if divisible by 100, it should also be divisible by 400).
 x = float(input("Please enter a year: "))
-
+#
 # Check if the year is a leap year
 if (x % 4 == 0 and x % 100 != 0) or (x % 400 == 0):
     print("leap year", x)
