@@ -20,7 +20,7 @@ def f3():
     count = 0
     while count < 5:
         print(count)
-        count = count=1
+        count = count+1
 
 # f3()
 
@@ -97,4 +97,4 @@ def f10():
             else:
                 print(num)
 
-f10()
+#f10()
